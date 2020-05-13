@@ -1,3 +1,3 @@
 ## My Portfolio
 
-URL = sigit-wasis.github.io
+https://www.sigit-wasis.github.io
