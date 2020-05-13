@@ -1,3 +1,3 @@
 ## My Portfolio
 
-https://www.sigit-wasis.github.io
+sigit-wasis.github.io
