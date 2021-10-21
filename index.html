@@ -1,436 +1,300 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="shortcut icon" href="/icon.ico" />
-	<title>Sigit Wasis Subekti</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<!-- Font Awesome Icons -->
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <title>Sigit Wasis Subekti</title>
 
-	<!-- Plugin CSS -->
-	<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-	<!-- Custom Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+  </head>
+  <body>
 
-	<!-- Simplebar -->
-	<link rel="stylesheet" href="vendor/simplebar/simplebar.css">
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Sigit Wasis</a>
 
-	<!-- Theme CSS - Includes Bootstrap And My Custom CSS -->
-	<link href="css/root.min.css" rel="stylesheet">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-	<link type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<section class="wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-5 col-lg-3 text-white sidebar background-blue">
-						<div class="col-md-12 mx-auto">
-							<figure class="profile-image mx-auto">	
-								<img class="img-fluid rounded-circle" src="img/sigit.jpeg" alt="Profile photo">
-								<figcaption class="text-center"><small class="d-block">Sigit Wasis</small></figcaption>
-							</figure>
-							<ul class="list-unstyled main-menu mt-4">
-								<li><a class="font-weight-bold text-white" href="#about-me"><i class="fa fa-user-tie "></i>About Me</a></li>
-								<li><a class="font-weight-bold text-white" href="#experience"><i class="fas fa-book"></i>Experience</a></li>
-								<li><a class="font-weight-bold text-white" href="#skills"><i class="fas fa-desktop"></i>Skills</a></li>
-								<li><a class="font-weight-bold text-white" href="#portfolio"><i class="fas fa-toolbox"></i>Portfolio</a></li>
-								<li><a class="font-weight-bold text-white" href="#contact"><i class="far fa-envelope"></i>Contact</a></li>
-							</ul>
-							<ul class="list-unstyled list-inline mt-3 text-center">
-								<li class="list-inline-item"><a class="text-white" href="https://medium.com/@sigitwasissubekti"><i class="fab fa-medium"></i></a></li>
-								<!-- <li class="list-inline-item"><a class="text-white" href="https://embuncode.blogspot.com/"><i class="fas fa-blog"></i></a></li> -->
-								<li class="list-inline-item"><a class="text-white" href="https://id.linkedin.com/in/sigit-wasis-subekti-1840a3165"><i class="fab fa-linkedin-in"></i></a></li>
-								<li class="list-inline-item"><a class="text-white" href="https://github.com/Sigit-Wasis"><i class="fab fa-github-alt"></i></a></li>
-								
-							</ul>
-						</div>
-				</div>
-				<div id="about-me" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content about-me active">
-					<div class="card about-me">
-						<h3 class="sideline font-weight-bold mb-2">About Me</h3>
-						<div class="label title mb-2"><i class="fas fa-code"></i>Web Developer</div>
-						<p> I am a Junior developer with a strong desire to learn new things. I am familiar with several PHP frameworks such as Laravel and Codeigniter, I am currently looking for opportunities to develop
-my skills in a challenging work environment and become a valuable asset to the organization I work for.
-						</p>
-					
-						<div class="text-wrapper">
-							<h5 class="font-weight-bold ml-3 mb-0">
-								<i class="fa fa-download"></i>
-								<a href="https://drive.google.com/file/d/1NUUUFRKaMdIbQD8JMbmtPmsiZgixq99I/view?usp=sharing" style="text-decoration: none;"> Download CV</a>
-							</h5>
-						</div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
 
-						<!-- <h3 class="sideline font-weight-bold mb-3">Hobbies and Interests</h3>
-						<div class="row interests">
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-tree mb-3"></i>
-								<h6 class="font-weight-bold">Outdoors</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-guitar mb-3"></i>
-								<h6 class="font-weight-bold">Guitar</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-book mb-3"></i>
-								<h6 class="font-weight-bold">Books</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-desktop mb-3"></i>
-								<h6 class="font-weight-bold">Computers</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-gamepad mb-3"></i>
-								<h6 class="font-weight-bold">Game Dev</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-plane mb-3"></i>
-								<h6 class="font-weight-bold">Travel</h6>
-							</div>
-						</div> -->
-					</div>
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-					<div class="row mt-5">
-						<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3">
-							<div class="card card--stats d-flex flex-row align-items-center">
-								<i class="fas fa-award ml-2"></i>
-								<div class="text-wrapper">
-									<h5 class="font-weight-bold ml-3 mb-0">2+ Years</h5>
-									<p class="ml-3 mb-0">Work experience</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3">
-							<div class="card card--stats d-flex flex-row align-items-center">
-								<i class="fas fa-users"></i>
-								<div class="text-wrapper">
-									<h5 class="font-weight-bold ml-3 mb-0">10+ Clients</h5>
-									<p class="ml-3 mb-0">Delivered</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3">
-							<div class="card card--stats d-flex flex-row align-items-center">
-								<i class="far fa-check-circle"></i>
-								<div class="text-wrapper">
-									<h5 class="font-weight-bold ml-3 mb-0">10+ Projects</h5>
-									<p class="ml-3 mb-0">Delivered</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3">
-							<div class="card card--stats d-flex flex-row align-items-center">
-								<i class="fas fa-wrench"></i>
-								<div class="text-wrapper">
-									<h5 class="font-weight-bold ml-3 mb-0">Available</h5>
-									<p class="ml-3 mb-0">For hire</p>
-								</div>
-							</div>
-						</div>
-					</div>
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hello, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Sigit Wasis Subekti</span>
+                                    <span class="animated-item">Web Developer</span>
+                                </div>
+                        </h1>
 
-					<div class="card mt-5">
-						<h3 class="font-weight-bold sideline mb-3">Reward</h3>
-						<div class="timeline">
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>2019</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Professional Web Developer Certification</h6>
-									<h6 class="blue">BPPTIK Kementerian Kominfo</h6>
-									<p>Professional Training and Certification organized by BPPTIK with a junior web developer category whose certification is published directly by BNSP.
-									</p>
-								</div>
-							</div>
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>2018</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Hope 1 Networking Support</h6>
-									<h6 class="blue">Teknokrat Indonesia</h6>
-									<p>The competition held by the Indonesian Teknokrat University with a competition to compose a network using Cisco Packet Tracert.
-									</p>
-								</div>
-							</div>
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>2017</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Top 10 Mikrotik Academy</h6>
-									<h6 class="blue">Competition at Universitas Lampung</h6>
-									<p>Completing the written examination phase in the field of basic networks, and Developing a microtic network system.
-									</p>
-								</div>
-							</div>
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>2016</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Top 1 IT Networking Support</h6>
-									<h6 class="blue">Student Competency Competition</h6>
-									<p>Following the competition between VOCATIONAL SCHOOL schools in West Lampung regency, the competition by creating a network system using Debian.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="experience" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content experience">
-					<div class="card">
-						<h3 class="font-weight-bold sideline mb-3">Experience</h3>
-						<div class="timeline">
-							<!-- <div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue">
-									<i class="far fa-calendar-alt mr-2"></i>09/2020– Now
-								</div>  
-								<div class="col-12 col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Fullstack Developer - Microdata Indonesia</h6>
-									<h6 class="blue">Yii2, HTML, SCSS, JavaScript, jQuery, Laravel, React Js, Svelte Js, Vue Js</h6>
-									<p>A web developer at one of the system institutions in Lampung, namely Microdata Indonesia with various projects originating from the government system.
-									</p>
-								</div>
-							</div> -->
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue">
-									<i class="far fa-calendar-alt mr-2"></i>02/2019– 08/2020
-								</div>  
-								<div class="col-12 col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Fullstack Web Developer - Pesantren Islam International Al Andalus</h6>
-									<h6 class="blue">WordPress, HTML, SCSS, JavaScript, jQuery, Laravel, Codeigniter</h6>
-									<p>A web developer at an international Islamic boarding school in al-Andalus in Bogor to develop applications related to the cottage system.
-									</p>
-								</div>
-							</div>
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue">
-									<i class="far fa-calendar-alt mr-2"></i>10/2018</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Fullstack Web Developer - Dlingo Digital Valley</h6>
-									<h6 class="blue">HTML, CSS, JavaScript, Python, Codeigniter</h6>
-									<p>A Web Developer in one of the software houses and makes a website scraping application using python and immediately has a notification to the email.
-									</p>
-								</div>
-							</div>
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>07/2018 – 09/2018</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Backend Web Developer</h6>
-									<h6 class="blue">HTML, SCSS, JavaScript, PHP, Codeigniter, Phalcon</h6>
-									<p>Initially I started my activities in the world of Backend Web Developer in an IT community called qodr.or.id in one of the provinces in Indonesia, namely Yogyakarta..
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card mt-5">
-						<h3 class="font-weight-bold sideline mb-3">Education</h3>
-						<div class="timeline">
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>07/2018 – 07/2021</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">QODR.OR.ID</h6>
-									<h6 class="blue">Software Engineering</h6>
-									<p>A Software Engineer engaged in making websites and mobile-based applications in one of the IT communities based in Yogyakarta, namely qodr.or.id and continues to the present.
-									</p>
-								</div>
-							</div>
-							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>07/2015 – 06/2018</div>  
-								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">SMK Negeri 1 Liwa</h6>
-									<h6 class="blue">Teknik Komputer dan Jaringan</h6>
-									<p>A computer assembler and network installer who focuses on becoming an IT in the field of networking and joins the Computer Team extracurricular to become an entrepreneur.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="skills" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content skills text-left">
-					<div class="card">
-						<h3 class="sideline font-weight-bold mb-2">My Skills</h3>
-						<p> I take these skills calculations from my experience both from the beginning of learning to start a career in the international Islamic boarding school al-andalus and more or less estimates as below. 
-						</p>
-						<div class="row interests">
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-laravel mb-3"></i>
-								<h6 class="font-weight-bold">Laravel</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-php mb-3"></i>
-								<h6 class="font-weight-bold">PHP</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-js mb-3"></i>
-								<h6 class="font-weight-bold">Javascript</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-python mb-3"></i>
-								<h6 class="font-weight-bold">Python</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-code mb-3"></i>
-								<h6 class="font-weight-bold">Codeigniter</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fas fa-database mb-3"></i>
-								<h6 class="font-weight-bold">Mysql</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-git mb-3"></i>
-								<h6 class="font-weight-bold">Git</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-html5 mb-3"></i>
-								<h6 class="font-weight-bold">HTML</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-css3-alt mb-3"></i>
-								<h6 class="font-weight-bold">CSS3</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-react mb-3"></i>
-								<h6 class="font-weight-bold">React Js</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-vuejs mb-3"></i>
-								<h6 class="font-weight-bold">Vue Js</h6>
-							</div>
-							<div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-docker mb-3"></i>
-								<h6 class="font-weight-bold">Docker</h6>
-							</div>
-							<!-- <div class="col-4 col-md-4 col-lg-2 text-center mt-3">
-								<i class="fab fa-vue-alt mb-3">
-								   <img src="img/1200px-Vue.js_Logo_2.png" style="width: 5px; height: 5px;">
-								</i>
-								<h6 class="font-weight-bold">Vue Js</h6>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<div id="portfolio" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content portfolio text-center">
-					<ul class="filter-controls list-unstyled list-inline">
-						<li class="list-inline-item active" data-filter="all"> <i class="fas fa-list-ul"></i> All items </li>
-						<li class="list-inline-item" data-filter="1"> <i class="fas fa-code"></i> Development </li>
-						<li class="list-inline-item" data-filter="2"> <i class="fas fa-paint-brush"></i> Design </li>
-						<li class="list-inline-item" data-filter="3"> <i class="fas fa-camera"></i> Photography </li>
-					</ul>
+                        <p>
+                          I'm a Junior developer with a strong desire to learn new things. I am familiar with several PHP frameworks like Laravel and Codeigniter, and also as a frontend developer with react js..</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://drive.google.com/drive/u/1/folders/1pPN2ZZPG8w6NeHCrzsfawDE_SRkpz63Y" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
+                        </div>
+                    </div>
+                </div>
 
-					<div class="row filter-container mt-3">
-						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
-							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample2.png"><img src="img/portfolio/sample2.png" class="img-fluid" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">Sistem Penerimaan Peserta Didik Baru.</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
-							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample3.png"><img src="img/portfolio/sample3.png" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">Sistem Kursusan Mister Net Liwa.</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
-							<figure class="figure mb-5"> 
-								<a class="popup-link" href="img/portfolio/sample1.png"><img src="img/portfolio/sample1.png" class="img-fluid popup-link" alt=""></a>
-								<figcaption class="font-weight-bold figure-caption">Sistem Kursusan Mitra Media Lampung.</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
-							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample4.png"><img src="img/portfolio/sample4.png" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">Sistem Akademik Sekolah Gading Rejo.</figcaption>
-							</figure>
-						</div>
-						<!-- <div class="col-md-3 filtr-item" data-category="1" data-sort="value">
-							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sampel5.png"><img src="img/portfolio/sampel5.png" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">Daily Activity Pesantren Al-andalus.</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
-							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample6.png"><img src="img/portfolio/sample6.png" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">Scraping Website Dlingo Digital Valley.</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 filtr-item" data-category="2" data-sort="value">
-							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample7.png"><img src="img/portfolio/sample7.png" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">UI/UX Design.</figcaption>
-							</figure>
-						</div>
-						<div class="col-md-3 filtr-item" data-category="2" data-sort="value">
-							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample8.png"><img src="img/portfolio/sample8.png" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">UI/UX Design Lapak Tani.</figcaption>
-							</figure>
-						</div> -->
-					</div>
-				</div>
-				<div id="contact" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content contact">
-					<div class="row mt-5">
-						<div class="col-12 col-sm-12 col-md-12 col-lg-5">
-							<h3 class="font-weight-bold sideline">Contact</h3>							
-							<p>If you want to contact me or are interested in working with me, please fill out this contact form or can contact me by email and telephone number. I usually reply within 2-5 business days. Thank you!</p>
-					
-							<ul class="list-unstyled">
-								<li class="font-weight-bold" style="padding-bottom: 10px;"><a href="#"><i class="far fa-envelope mr-2"></i>hellowasis@gmail.com</a></li>
-								<li class="font-weight-bold" style="padding-bottom: 10px;"><a href="#"><i class="fa fa-phone mr-2"></i>0822 8148 8568</a></li>
-								<!-- <li class="font-weight-bold" style="padding-bottom: 10px;"><a href="#"><i class="fas fa-globe mr-2"></i>www.embuncode.com</a></li> -->
-								<li class="font-weight-bold" style="padding-bottom: 10px;"><a href="#"><i class="fab fa-facebook-f mr-2"></i> Sigit wasis subekti</a></li>
-								<!-- <li class="font-weight-bold" style="padding-bottom: 10px;"><a href="#"><i class="fab fa-instagram mr-2"></i>embuncode</a></li> -->
-								<li class="font-weight-bold"><a href="#"><i class="fas fa-map-marker-alt mr-2"></i>Lampung Indonesia</a></li>
-							</ul>
-						</div>
-						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
-							<form class="card">
-								<div class="form-group">
-									<label for="full-name label">Full name</label>
-									<input type="text" class="form-control" id="full-name" placeholder="Full name">
-								</div>
-								<div class="form-group">
-									<label for="exampleInputEmail1">Email address</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-								</div>
-								<div class="form-group">
-									<label for="message">Message:</label>
-									<textarea class="form-control" rows="5" id="message"></textarea>
-									</div>
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_Developer_activity_re_39tg.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
 
-								<button type="button" class="btn btn-primary" id="submit">Submit</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 
-	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
 
-	<!-- Plugin JavaScript -->
-	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                      <div class="col-lg-8 mx-auto">
+                        <h2>The following is a portfolio that I have made!</h2>
+                      </div>
 
-	<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/klinik.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
 
-	<!--Simplebar -->
-	<script src="vendor/simplebar/simplebar.min.js"></script>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/booking-room.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
 
-	<!-- Filterisr -->
-	<script src="vendor/filterisr/jquery.filterizr.min.js"></script>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/mesuji-admin.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
 
-	<!-- Custom scripts for this template -->
-	<script src="js/main.min.js"></script>
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/walhi.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                      </div>
 
-	<script>
-		$(document).ready(function(){
-			$("#submit").click(function(){
-				alert('Mohon maaf form belum berfungsi, masih dalam development, Jika ingin menghubungi dapat melalui No Whatsapp yang tersedia disamping!');
-			});
-		});
-	</script>
-</body>
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2021</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Web Developer</span><small>PT. Microdata Indonesia</small></h3>
+                                  <p>Create a government system, a booking
+                                    room application using react js, a
+                                    helpdesk system with react js, and a car
+                                    tow booking information system.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Web Developer</span><small>Pesantren Islam Al andalus</small></h3>
+                                <p>Create Daily Activity applications and
+                                  student admission application with
+                                  laravel technology, javascript, PHP,
+                                  jquery and collaborate with GIT..</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2019</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Web Developer <small>Dlingo Digital Valley</small></h3>
+                                <p>Creating a Scraping Automation
+                                  application for a website then sent via
+                                  email created with codeigniter, PHP
+                                  and python technology..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2018</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>QODR.OR.ID</span><small>Web Developer</small></h3>
+                                  <p>Qodr (/ˈkōdər/) is an IT training program and learn non-formal Islamic boarding school.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2015</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>SMK N 1 LIWA</span><small>Computer and Network Engineering</small></h3>
+                                <p>Vocational high school with a focus on studying networks and computers.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.8630128775517!2d104.1094282148563!3d-4.9624311520809075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4787a13d069477%3A0x1a2a042c013c7b90!2sEmbun%20Code!5e0!3m2!1sen!2sid!4v1634811080618!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">My Contact</h3>
+                  <p class="footer-text mb-0">+62 852 6881 2239</p>
+                  <p><a href="mailto:hello@company.co">hellowasis@gmail.com</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
+                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                     <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="" method="get">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2021 Sigit Wasis Subekti . All rights reserved</p>
+                        <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
 </html>
